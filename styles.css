@@ -1,0 +1,31 @@
+.caja {
+    background-color: #ff0000;
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    font-size: 1.5em;
+
+    transition: background-color 0.5s, height 0.5s, width 0.5s;
+}
+
+.caja_color {
+    background-color: #000;
+    height: 150px;
+    width: 150px;
+}
+
+button {
+    outline: none;
+    border: none;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
